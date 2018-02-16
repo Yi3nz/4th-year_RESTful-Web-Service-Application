@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      
+    </title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.mi‌​n.js"></script>
+  </head>
+	<body>
+		
+		
+		<!--<h1>Customer Sign Up</h1>
+		<form action="http://localhost:49000/api/customers/newcustomer" id="my-form" method="post">
+			Id: <input type="text" name="id"><br />
+			Name: <input type="text" name="name"><br />
+			Address: <input type="text" name="address"><br>
+			Email: <input type="text" name="email"><br>
+			Password: <input type="password" name="password"><br>
+			<input type="submit" value="Sign up">
+		</form>-->
+	
+	
+		<!-- Get All Customer-->
+		<h1>Read  All Customers</h1>
+		<form id="my-form" action="http://localhost:49000/api/customers" method="get">
+		  <input type="submit" value="Get all customers">
+		 <!-- <input type="button" value="Go back!" onclick="history.go(-1)"> </input> -->
+		</form>
+		
+		<!-- Get Customer by ID-->
+		<h1>Get Customer By ID</h1>
+		<form id="my-form" action="http://localhost:49000/api/customers/" method="get">
+			Id: <input type="text" name="id"><br />
+			<input type="submit" value="Get customer">
+		</form>
+	
+		
+		<!-- Create Customer-->
+		<h1>Create Customer</h1>
+		<form action="http://localhost:49000/api/customers/save" id="my-form" method="post">
+			
+			Name: <input type="text" name="name"><br />
+			Address: <input type="text" name="address"><br>
+			Email: <input type="text" name="email"><br>
+			SecurityCredentials: <input type="text" name="password"><br>
+			<input type="submit" value="Create Customer" form="my-form">
+		</form>
+	
+		<!-- Create Customer Account-->
+		<h1>Create Customer Account</h1>
+		<form action="http://localhost:49001/api/customers/id/accounts/saveAccount" id="my-form" method="post">
+			AccountType: <input type="text" name="AccountType"><br />
+			SortCode: <input type="text" name="SortCode"><br>
+			accountCurrentBalance: <input type="text" name="accountCurrentBalance"><br>
+			<input type="submit" value="Create Customer Accoun" form="my-form">
+		</form>
+		
+		<!-- Read All Customer Account -->
+		<h1> Read All Customer Account</h1>
+		<form action="http://localhost:49001/api/customers/id/accounts" id="my-form" method="get">
+			Account Type: <input type="text" name="AccountType"><br />
+			Account SortCode: <input type="text" name="SortCode"><br>
+			Account Current Balance: <input type="text" name="accountCurrentBalance"><br>
+			<input type="submit" value="Get All Customer Account" form="my-form">
+		</form>
+		
+		
+		<!-- Read  Customer Account  details by Account ID-->
+		<h1>Read  Customer Account  details by Account ID</h1>
+		<form action="http://localhost:49001/api/customers/id/accounts/acountId" id="my-form" method="get">
+			Account Type: <input type="text" name="AccountType"><br />
+			Account SortCode: <input type="text" name="AccountSortCode"><br>
+			Account Current Balance: <input type="text" name="accountCurrentBalance"><br>
+			<input type="submit" value="Get" form="my-form">
+		</form>
+		
+		
+		<!-- Create a Lodgment -->
+		<h1> Creat a Lodgment</h1>
+		<form action="http://localhost:49000/api/customers/id/accounts/accountType/accountId/transactions/lodgment" id="my-form" method="post">
+			Account Type: <input type="text" name="AccountType"><br />
+			AccoundId: <input type="text" name="AccountId"><br>
+			Transaction Type: <input type="text" name="transactionType"><br>
+			<input type="submit" value="Create a Lodgment" form="my-form">
+		</form>
+		
+			
+		<!-- Read All transation -->
+		<h1>Read ALL transation</h1>
+		<form action="http://localhost:49000/api/customers/{id}/accounts/accountType/accountId/transactions/lodgment" id="my-form" method="get">
+			Account Type: <input type="text" name="AccountType"><br />
+			AccoundId: <input type="number" name="AccountId"><br>
+			Transaction Type: <input type="number" name="transactionType"><br>
+			Transaction Date Type: <input type="text" name="transactionDateTime"><br>
+			<input type="submit" value="Get All transation" form="my-form">
+		</form>
+		
+		
+		
+		
+		
+		
+		
+		
+</body>
+</html>

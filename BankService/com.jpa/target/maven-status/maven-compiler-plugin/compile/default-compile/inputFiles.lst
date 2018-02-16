@@ -1,0 +1,6 @@
+H:\Year4Semeste\WebAPI\Final Project\06_ModelSeparation\CustomerDone\jpa-OneToMany\com.jpa\src\main\java\com\mycompany\bank\model\Customer.java
+H:\Year4Semeste\WebAPI\Final Project\06_ModelSeparation\CustomerDone\jpa-OneToMany\com.jpa\src\main\java\com\mycompany\bank\resources\BankResource.java
+H:\Year4Semeste\WebAPI\Final Project\06_ModelSeparation\CustomerDone\jpa-OneToMany\com.jpa\src\main\java\com\mycompany\bank\model\Transaction.java
+H:\Year4Semeste\WebAPI\Final Project\06_ModelSeparation\CustomerDone\jpa-OneToMany\com.jpa\src\main\java\com\mycompany\bank\resources\AccountResource.java
+H:\Year4Semeste\WebAPI\Final Project\06_ModelSeparation\CustomerDone\jpa-OneToMany\com.jpa\src\main\java\com\mycompany\bank\model\Account.java
+H:\Year4Semeste\WebAPI\Final Project\06_ModelSeparation\CustomerDone\jpa-OneToMany\com.jpa\src\main\java\com\mycompany\bank\resources\TransactionResource.java
